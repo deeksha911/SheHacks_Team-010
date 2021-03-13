@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "sheHacks",
+    "slug": "sheHacks",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assests/icon.png",
+    "splash": {
+      "image": "./assests/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assests/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assests/favicon.png"
+    }
+  }
+}
